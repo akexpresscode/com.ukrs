@@ -1,0 +1,662 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 61361082951,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Add product Connectors in to basket",
+        "description": "",
+        "id": "end-to-end-functionality-to-buy-product;add-product-connectors-in-to-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 8577805504,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2725089029,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11979269195,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on All Product Tab",
+            "match": {
+              "location": "MyStepdefs.iClickOnAllProductTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2510073563,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I select category from \u0027Connectors\u0027",
+            "match": {
+              "location": "MyStepdefs.iSelectCategoryFromConnectors()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111537,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select sub-category from \u0027PCBConnectors\u0027",
+            "match": {
+              "location": "MyStepdefs.iSelectSubCategoryFromPCBConnectors()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17899022868,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select category pats from \u0027Backplane Accessories\u0027",
+            "match": {
+              "location": "MyStepdefs.iSelectCategoryPatsFromBackplaneAccessories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10363601519,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Add button of selected part by \u0027476-457\u0027",
+            "match": {
+              "location": "MyStepdefs.iClickOnAddButtonOfSelectedPartBy()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079950470,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I add product in to basket successfully",
+            "match": {
+              "location": "MyStepdefs.iAddProductInToBasketSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13307575317,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I click on Basket on right hand top corner",
+            "match": {
+              "location": "MyStepdefs.iClickOnBasketOnRightHandTopCorner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6993967064,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on Checkout",
+            "match": {
+              "location": "MyStepdefs.iClickOnCheckout()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 44291658573,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Add product from Our Brands in to basket",
+        "description": "",
+        "id": "end-to-end-functionality-to-buy-product;add-product-from-our-brands-in-to-basket",
+        "after": [
+          {
+            "result": {
+              "duration": 4859416273,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3779034,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I am on the homepage",
+            "match": {
+              "location": "MyStepdefs.iAmOnTheHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 684458276,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on Our Brands on home page",
+            "match": {
+              "location": "MyStepdefs.iClickOnOurBrandsOnHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 562563655,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on SEIMENS",
+            "match": {
+              "location": "MyStepdefs.iClickOnSEIMENS()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17570262089,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on Logic Modul under Popular categories for Siemens",
+            "match": {
+              "location": "MyStepdefs.iClickOnLogicModulUnderPopularCategoriesForSiemens()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19539190457,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click on product \u0027BARTH STG-600\u0027 Logic Control",
+            "match": {
+              "location": "MyStepdefs.iClickOnProductBARTHSTGLogicControl()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2994813518,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click on Add to Basket tab next to quantity",
+            "match": {
+              "location": "MyStepdefs.iClickOnAddToBasketTabNextToQuantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12216510822,
+              "error_message": "org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up\nCommand duration or timeout: 10.85 seconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027RAINBOW\u0027, ip: \u0027192.168.1.244\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{applicationCacheEnabled\u003dtrue, rotatable\u003dfalse, handlesAlerts\u003dtrue, databaseEnabled\u003dtrue, version\u003d47.0.1, platform\u003dWINDOWS, nativeEvents\u003dfalse, acceptSslCerts\u003dtrue, webStorageEnabled\u003dtrue, locationContextEnabled\u003dtrue, browserName\u003dfirefox, takesScreenshot\u003dtrue, javascriptEnabled\u003dtrue, cssSelectorsEnabled\u003dtrue}]\nSession ID: e1792b08-d590-4727-bac6-de8a27bf0c44\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)\r\n\tat com.rs.uk.utils.GenericMethods.clickOnElement(GenericMethods.java:28)\r\n\tat com.rs.uk.PageLibrary.BasketPage.clickOnBasketTab(BasketPage.java:16)\r\n\tat com.rs.uk.cucumber.MyStepdefs.iClickOnBasketOnRightHandTopCorner(MyStepdefs.java:135)\r\n\tat ✽.And I click on Basket on right hand top corner(src/test/resources/features/e2e.feature:26)\r\nCaused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html\nBuild info: version: \u00272.53.1\u0027, revision: \u0027a36b8b1cd5757287168e54b817830adce9b0158d\u0027, time: \u00272016-06-30 19:26:09\u0027\nSystem info: host: \u0027RAINBOW\u0027, ip: \u0027192.168.1.244\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: driver.version: unknown\r\n\tat \u003canonymous class\u003e.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9454)\r\n\tat \u003canonymous class\u003e.Utils.getElementAt(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9039)\r\n\tat \u003canonymous class\u003e.fxdriver.preconditions.visible(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10090)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)\r\n\tat \u003canonymous class\u003e.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)\r\n\tat \u003canonymous class\u003e.fxdriver.Timer.prototype.setTimeout/\u003c.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)\r\n",
+              "status": "failed"
+            },
+            "line": 26,
+            "name": "I click on Basket on right hand top corner",
+            "match": {
+              "location": "MyStepdefs.iClickOnBasketOnRightHandTopCorner()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "Product should be added to basket page successsfully",
+            "match": {
+              "location": "MyStepdefs.productShouldBeAddedToBasketPageSuccesssfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "End to end functionality to buy product",
+    "description": "As a user\r\nI should buy product successfully",
+    "id": "end-to-end-functionality-to-buy-product",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/e2e.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@e2e"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 29563111889,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Search box on home page",
+        "description": "",
+        "id": "search-functionality;search-box-on-home-page",
+        "after": [
+          {
+            "result": {
+              "duration": 4365659287,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3291766,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter url in to browser bar",
+            "match": {
+              "location": "MyStepdefs.iEnterUrlInToBrowserBar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 251234826,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should navigate to homepage successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldNavigateToHomepageSuccessfully()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1120050475,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see a search box successfully",
+            "match": {
+              "location": "MyStepdefs.iShouldSeeASearchBoxSuccessfully()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41353345290,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.setUp()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Should list items containing certain keyword",
+        "description": "",
+        "id": "search-functionality;should-list-items-containing-certain-keyword",
+        "after": [
+          {
+            "result": {
+              "duration": 3503550524,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4513478,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I want to buy a Batteries",
+            "match": {
+              "location": "MyStepdefs.iWantToBuyABatteries()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14280395201,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search for items containing \"Batteries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Batteries",
+                  "offset": 31
+                }
+              ],
+              "location": "MyStepdefs.iSearchForItemsContaining(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2276090620,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should only see items related to \"Batteries\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Batteries",
+                  "offset": 36
+                }
+              ],
+              "location": "MyStepdefs.iShouldOnlySeeItemsRelatedTo(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 36051831739,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Should list items containing certain parts numbers",
+        "description": "",
+        "id": "search-functionality;should-list-items-containing-certain-parts-numbers;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4493010726,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2580008,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to buy items using \"Mfr. Part No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mfr. Part No",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepdefs.iWantToBuyItemsUsing(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11157006170,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter \"CSCAK/1\" in to search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "CSCAK/1",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterInToSearchBox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5472104108,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should only see item with \"Mfr. Part No\" and \"CSCAK/1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mfr. Part No",
+                  "offset": 29
+                },
+                {
+                  "val": "CSCAK/1",
+                  "offset": 48
+                }
+              ],
+              "location": "MyStepdefs.iShouldOnlySeeItemWithAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Search"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 38585060152,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "Should list items containing certain parts numbers",
+        "description": "",
+        "id": "search-functionality;should-list-items-containing-certain-parts-numbers;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 4994460001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3846145,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I want to buy items using \"RS Stock No\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RS Stock No",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepdefs.iWantToBuyItemsUsing(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10333425966,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I enter \"537-5488\" in to search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "537-5488",
+                  "offset": 9
+                }
+              ],
+              "location": "MyStepdefs.iEnterInToSearchBox(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4563055648,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I should only see item with \"RS Stock No\" and \"537-5488\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "RS Stock No",
+                  "offset": 29
+                },
+                {
+                  "val": "537-5488",
+                  "offset": 47
+                }
+              ],
+              "location": "MyStepdefs.iShouldOnlySeeItemWithAnd(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "As a user,\r\nI should be able to use search functionality on uk.rs-online.com",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search"
+      }
+    ]
+  }
+]

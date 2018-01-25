@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Search functionality" skipped="0" tests="4" time="199.61" timestamp="2018-01-25 10:18:54"><testcase name="Search box on home page"/><testcase name="Should list items containing certain keyword"/><testcase name="Should list items containing certain parts numbers"/></testsuite>

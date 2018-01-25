@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="End to end functionality to buy product" skipped="0" tests="2" time="227.79" timestamp="2018-01-25 10:14:38"><testcase name="Add product Connectors in to basket"/><testcase name="Add product from Our Brands in to basket"><error message="Element not found in the cache - perhaps the page has changed since it was looked up&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'RAINBOW', ip: '192.168.1.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'&#10;System info: host: 'RAINBOW', ip: '192.168.1.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.StaleElementReferenceException">Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RAINBOW', ip: '192.168.1.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RAINBOW', ip: '192.168.1.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown</error><system-err>Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RAINBOW', ip: '192.168.1.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'RAINBOW', ip: '192.168.1.244', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: driver.version: unknown&#13;
+&lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:9454)&#13;
+&lt;anonymous class&gt;.Utils.getElementAt(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9039)&#13;
+&lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:10090)&#13;
+&lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12644)&#13;
+&lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12661)&#13;
+&lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/User/AppData/Local/Temp/anonymous7602284930214940436webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:625)&#13;
+</system-err></testcase></testsuite>
